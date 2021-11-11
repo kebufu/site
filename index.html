@@ -13,7 +13,7 @@
 			for (var i = 0; i < 2; i++) {
 				document.write("0123456789".charAt(Math.random()*10))
 			}
-			document.write(" visitor")
+			document.write(" visitor<br/>")
 			if (document.cookie.match("accept=1")) {
 				document.write('<applet code="org.lwjgl.util.applet.AppletLoader" codebase="jars/" archive="lwjgl_util_applet.jar" width="854" height="480">\n<param name="al_main" value="net.minecraft.client.FWm">\n<param name="al_jars" value="Minecraft.jar, lwjgl_applet.jar, lwjgl.jar, jinput.jar, lwjgl_util.jar">\n<param name="al_windows" value="windows_natives.jar">\n<param name="al_linux" value="linux_natives.jar">\n<param name="al_mac" value="macosx_natives.jar">\n<param name="al_solaris" value="solaris_natives.jar">\n<param name="al_cache" value="true">\n<h1>You browser doesn\'t support Applet!!!!</h1>\n</applet>')
 			} else {
