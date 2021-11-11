@@ -1,0 +1,58 @@
+
+@font-face {
+   font-family: minecraft;
+   src: url(minecraft_font.ttf), url(minecraft_font.eot);
+   unicode-range: U+00-00FF;
+}
+
+@font-face {
+   font-family: unifont;
+   src: url(unifont.ttf);
+}
+
+input {
+   background: #0a0a0a;
+   border: 2px #e0e0e0 solid;
+   margin: 10px;
+   color: #fff;
+   width: 388px;
+   height: 36px;
+   font-size: 16px;
+   padding-left: 4px;
+   padding-top: 0px;
+   padding-right: 4px;
+   padding-bottom: 0px;
+}
+input[type="button"], button {
+   width: 400px;
+   height: 40px;
+   background: url(imgs/button.png);
+   background-size: 100%;
+   border-color: #000;
+   padding: 0px;
+
+}
+input[type="button"]:hover, button:hover {
+   background: url(imgs/button_hover.png);
+   background-size: 100%;
+   color: #ffa;
+   align-content: center;
+}
+body
+{
+   background-color: #000;
+   background-image: url('imgs/background.png');
+   background-attachment: scroll;
+   background-position: left top;
+   background-repeat: repeat;
+   color: #eee;
+   font-weight: normal;
+   font-size: 16px;
+   line-height: 1.1875;
+   margin: 0;
+   text-align: center;
+}
+
+* {
+   font-family: minecraft,unifont;
+}
